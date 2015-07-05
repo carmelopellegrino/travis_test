@@ -1,2 +1,5 @@
-default:
-    gcc -o main main.c
+all:
+	gcc -o main main.c
+
+install:
+	@echo OK
