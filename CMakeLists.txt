@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 project (sqrt2)
 
-find_package(Boost 1.53 REQUIRED COMPONENTS atomic system thread program_options chrono)
+find_package(Boost 1.45 REQUIRED COMPONENTS system thread program_options chrono)
 
 # Compiler flags
 set(GCC_COMPILE_FLAGS "")
