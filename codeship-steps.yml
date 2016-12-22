@@ -1,0 +1,8 @@
+- name: compile
+  service: Build
+  command:
+    - mkdir build
+    - cd build
+    - cmake ../
+    - make
+    - ./sqrt2
