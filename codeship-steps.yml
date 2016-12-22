@@ -1,6 +1,6 @@
 - name: compile
   service: Build
-  command: uname -a
-  command: pwd
-  command: ls -lR ../
+  command: uname -a >&2
+  command: pwd >&2
+  command: ls -lR ../ >&2
   command: bash build.sh
