@@ -1,2 +1,2 @@
 Build:
-  image: buddaci/ubuntu-ci
+  image: buddaci/ubuntu-ci:14.04
